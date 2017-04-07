@@ -1,0 +1,636 @@
+/*= RESET CODEY GENERALES
+=== === === === === === === === === === */
+html,body {
+	height: 100%;
+	background: #fff;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	-moz-outline: none !important;
+}
+
+.clear {
+	clear: both;
+	font-size: 1px;
+	color: #fff;
+	height: 0;
+}
+
+a:focus {
+	-moz-outline: none !important;
+}
+
+a {
+	color: #006699;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #024b70;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+img {
+	border: 0;
+}
+
+a img {
+	border: none;
+}
+
+.no_border {
+	border: 0;
+}
+
+ul {
+	list-style: none;
+}
+
+select {
+	outline: none;
+}
+
+strong {
+	font-weight: bold;
+}
+
+.fleft {
+	float: left;
+}
+
+.fright {
+	float: right;
+}
+
+/*= FONTS
+=== === === === === === === === === === */
+@font-face {
+	font-family: 'DroidRegular';
+	src: url('../fonts/DroidSans-webfont.eot');
+	src: url('../fonts/DroidSans-webfont.eot?#iefix')
+		format('embedded-opentype'), url('../fonts/DroidSans-webfont.woff')
+		format('woff'), url('../fonts/DroidSans-webfont.ttf')
+		format('truetype'),
+		url('../fonts/DroidSans-webfont.svg#DroidSansRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'DroidBold';
+	src: url('../fonts/DroidSans-Bold-webfont.eot');
+	src: url('../fonts/DroidSans-Bold-webfont.eot?#iefix')
+		format('embedded-opentype'),
+		url('../fonts/DroidSans-Bold-webfont.woff') format('woff'),
+		url('../fonts/DroidSans-Bold-webfont.ttf') format('truetype'),
+		url('../fonts/DroidSans-Bold-webfont.svg#DroidSansBold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+/*= GENERALES SITIO
+=== === === === === === === === === === */
+.container_all {
+	background: url(../images/bk_j.jpg) no-repeat;
+	width: 100%;
+	background-position: 50% 0;
+}
+
+.total_width {
+	width: 1000px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.programas {
+	width: 700px;
+	float: left;
+	padding: 10px 0;
+	margin-top: 580px;
+}
+
+.programas .seleccion {
+	margin-bottom: 40px;
+}
+
+.programas .seleccion h2 {
+	font-family: "DroidRegular", Arial, Helvetica, sans-serif;
+	font-size: 23px;
+	font-weight: normal;
+	color: #333;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.programas .combos .un_campo {
+	height: 35px;
+	width: 233px;
+	float: left;
+}
+
+.programas .combos .un_campo select {
+	width: 220px;
+	padding: 3px;
+	font-size: 12px;
+	float: left;
+	display: block;
+	border: 1px solid #eaeaea;
+	height: 35px;
+}
+
+.programas .programa h3 {
+	font-family: "DroidBold", Arial, Helvetica, sans-serif;
+	font-size: 23px;
+	font-weight: normal;
+	color: #333;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.programas .programa .capsulas {
+	margin-bottom: 20px;
+}
+
+.programas .programa .capsulas .capsula_horas {
+	width: 165px;
+	padding: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	background: #0a629f;
+	float: left;
+	margin-right: 70px;
+}
+
+.programas .programa .capsulas .capsula_horas h4 {
+	font-family: "DroidBold", Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: normal;
+	color: #fff;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.programas .programa .capsulas .capsula_horas h5 {
+	font-family: "DroidRegular", Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	font-weight: normal;
+	color: #fff;
+	text-align: center;
+}
+
+.formulario {
+	width: 280px;
+	float: right;
+	padding: 10px 0;
+	background: #fc0;
+	margin-top: 580px;
+}
+
+.programas .programa .capsulas .capsula_mes {
+	width: 165px;
+	padding: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	background: #0a629f;
+	float: left;
+}
+
+.programas .programa .capsulas .capsula_mes h4 {
+	font-family: "DroidBold", Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: normal;
+	color: #fff;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.programas .programa .capsulas .capsula_mes h5 {
+	font-family: "DroidRegular", Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	font-weight: normal;
+	color: #fff;
+	text-align: center;
+}
+
+.formulario {
+	width: 280px;
+	float: right;
+	padding: 10px 0;
+	background: #fc0;
+	margin-top: 580px;
+}
+
+.programas .programa .capsulas .capsula_dia {
+	width: 165px;
+	padding: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	background: #0a629f;
+	float: right;
+}
+
+.programas .programa .capsulas .capsula_dia h4 {
+	font-family: "DroidBold", Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: normal;
+	color: #fff;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.programas .programa .capsulas .capsula_dia h5 {
+	font-family: "DroidRegular", Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	font-weight: normal;
+	color: #fff;
+	text-align: center;
+}
+
+.programas .info {
+	margin-bottom: 20px;
+}
+
+.programas .info .perfil {
+	margin-bottom: 20px;
+}
+
+.programas .info .perfil h3 {
+	font-family: "DroidBold", Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: normal;
+	color: #0a629f;
+	margin-bottom: 5px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.programas .info .perfil p {
+	font-family: "DroidRegular", Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: normal;
+	color: #333;
+}
+
+.programas .info .consiste {
+	margin-bottom: 20px;
+}
+
+.programas .info .consiste h3 {
+	font-family: "DroidBold", Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: normal;
+	color: #0a629f;
+	margin-bottom: 5px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.programas .info .consiste p {
+	font-family: "DroidRegular", Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: normal;
+	color: #333;
+}
+
+.programas .info .porque {
+	margin-bottom: 20px;
+}
+
+.programas .info .porque h3 {
+	font-family: "DroidBold", Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: normal;
+	color: #0a629f;
+	margin-bottom: 5px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.programas .info .porque p {
+	font-family: "DroidRegular", Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: normal;
+	color: #333;
+}
+
+.formulario {
+	width: 280px;
+	float: right;
+	padding: 108px 0 0 0;
+	margin-top: 537px;
+	background: url(../images/inscribete.png) no-repeat;
+	height: 530px;
+}
+
+.formulario .un_campo {
+	height: 35px;
+	width: 233px;
+	float: left;
+	margin-left: 23px;
+	margin-bottom: 30px;
+}
+
+.formulario .un_campo input {
+	width: 220px;
+	padding: 3px;
+	font-size: 12px;
+	float: left;
+	display: block;
+	border: 1px solid #eaeaea;
+	height: 35px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	font-family: "DroidRegular", Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: normal;
+	color: #333;
+	padding-left: 10px;
+}
+
+.formulario .un_campo input.submit {
+	font-size: 30px;
+	background: #52af83;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	font-family: "DroidRegular", Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	width: 233px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin-top: 20px;
+	padding: 15px 0;
+	height: 65px;
+}
+
+.formulario .un_campo input.submit:hover {
+	background: #ff5b25;
+	color: #fff;
+	border: none;
+}
+
+.formulario .terminos_reg {
+	padding: 0 20px;
+}
+
+.formulario .terminos_reg ul li .form-checkbox {
+	margin-right: 5px;
+	float: left;
+}
+
+.formulario .terminos_reg ul li h6 {
+	font-family: "DroidRegular", Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #333;
+}
+
+.gracias {
+	padding: 100px 0;
+	padding-top: 600px;
+}
+
+.gracias h3 {
+	font-family: "DroidRegular", Arial, Helvetica, sans-serif;
+	font-size: 35px;
+	font-weight: normal;
+	color: #333;
+	margin-bottom: 5px;
+	text-align: left;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.gracias h3 span {
+	color: #0a629f;
+	font-family: "DroidBold", Arial, Helvetica, sans-serif;
+}
+
+/*= footer
+=== === === === === === === === === === */
+.container_all_footer {
+	background: url(../images/bk_footer.jpg) no-repeat;
+	width: 100%;
+	background-position: 50% 0;
+	height: 85px;
+}
+
+.container_all_footer p.footer {
+	font-family: "DroidRegular", Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #333;
+	text-align: center;
+	padding-top: 25px;
+	width: 700px;
+	margin: 0 auto;
+}
+
+/* Adicionales No borrar */
+.saludo {
+	font-family: "DroidBold", Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: normal;
+	color: #0a629f;
+	margin-bottom: 5px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.origen {
+	width: 220px;
+	padding: 3px;
+	font-size: 12px;
+	float: left;
+	display: block;
+	border: 1px solid #eaeaea;
+	height: 35px;
+}
+
+.btnlink {
+	font-size: 30px;
+	background: #52af83;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	font-family: "DroidRegular", Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	width: 233px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin-top: 20px;
+	padding: 15px 0;
+	height: 65px;
+}
+
+.link {
+	font-family: "DroidBold", Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: normal;
+	color: #0a629f;
+	margin-bottom: 5px;
+	text-align: left;
+	text-transform: lowercase;
+}
+
+.programa_form {
+	width: 220px;
+	padding: 3px;
+	font-size: 12px;
+	float: left;
+	display: block;
+	border: 1px solid #eaeaea;
+	height: 35px;
+}
+/* Ajustes Administración */
+.datagrid table {
+	border-collapse: collapse;
+	text-align: left;
+	width: 100%;
+}
+
+.datagrid {
+	font: normal 12px/150% Arial, Helvetica, sans-serif;
+	background: #fff;
+	overflow: hidden;
+	border: 1px solid #36752D;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.datagrid table td,.datagrid table th {
+	padding: 3px 10px;
+}
+
+.datagrid table thead th {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #36752D
+		), color-stop(1, #275420));
+	background: -moz-linear-gradient(center top, #36752D 5%, #275420 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#36752D',
+		endColorstr='#275420');
+	background-color: #36752D;
+	color: #FFFFFF;
+	font-size: 10px;
+	font-weight: bold;
+	border-left: 1px solid #36752D;
+}
+
+.datagrid table thead th:first-child {
+	border: none;
+}
+
+.datagrid table tbody td {
+	color: #275420;
+	border-left: 1px solid #C6FFC2;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+.datagrid table tbody .alt td {
+	background: #DFFFDE;
+	color: #275420;
+}
+
+.datagrid table tbody td:first-child {
+	border-left: none;
+}
+
+.datagrid table tbody tr:last-child td {
+	border-bottom: none;
+}
+
+.datagrid table tfoot td div {
+	border-top: 1px solid #36752D;
+	background: #DFFFDE;
+}
+
+.datagrid table tfoot td {
+	padding: 0;
+	font-size: 12px
+}
+
+.datagrid table tfoot td div {
+	padding: 2px;
+}
+
+.datagrid table tfoot td ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: right;
+}
+
+.datagrid table tfoot  li {
+	display: inline;
+}
+
+.datagrid table tfoot li a {
+	text-decoration: none;
+	display: inline-block;
+	padding: 2px 8px;
+	margin: 1px;
+	color: #FFFFFF;
+	border: 1px solid #36752D;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #36752D
+		), color-stop(1, #275420));
+	background: -moz-linear-gradient(center top, #36752D 5%, #275420 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#36752D',
+		endColorstr='#275420');
+	background-color: #36752D;
+}
+
+.datagrid table tfoot ul.active,.datagrid table tfoot ul a:hover {
+	text-decoration: none;
+	border-color: #275420;
+	color: #FFFFFF;
+	background: none;
+	background-color: #36752D;
+}
+
+div.dhtmlx_window_active,div.dhx_modal_cover_dv {
+	position: fixed !important;
+}
+
+.datagrid table tbody tr td input, .datagrid table tbody tr td select, .datagrid table tbody tr td textarea{
+	width: 100%;
+	padding: 3px;
+	font-size: 12px;
+	float: left;
+	display: block;
+	border: 1px solid #eaeaea;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	font-family: "DroidRegular", Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: normal;
+	color: #333;
+	padding-left: 10px;
+}
+.datagrid table tbody tr td input.submit{
+	background: #52af83;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	font-family: "DroidRegular", Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	width: 100%;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding: 15px 0;
+	height: 65px;
+}

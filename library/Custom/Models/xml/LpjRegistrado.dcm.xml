@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+  <entity name="LpjRegistrado" table="lpj_registrado">
+    <indexes>
+      <index name="fk_lpj_registrado_lpj_programa1_idx" columns="lpj_programa_pk_id"/>
+    </indexes>
+    <id name="pkId" type="integer" column="pk_id">
+      <generator strategy="IDENTITY"/>
+    </id>
+    <field name="vnombre" type="string" column="vnombre" length="60" nullable="false"/>
+    <field name="vapellido" type="string" column="vapellido" length="70" nullable="false"/>
+    <field name="vemail" type="string" column="vemail" length="50" nullable="false"/>
+    <field name="icelular" type="bigint" column="icelular" nullable="false"/>
+    <field name="icontactar" type="boolean" column="icontactar" nullable="false"/>
+    <field name="vtarget" type="string" column="vtarget" length="100" nullable="false"/>
+    <field name="vip" type="string" column="vip" length="20" nullable="true"/>
+    <field name="dtfechaRegistro" type="datetime" column="dtfecha_registro" nullable="false"/>
+    <many-to-one field="lpjProgramaPk" target-entity="LpjPrograma">
+      <join-columns>
+        <join-column name="lpj_programa_pk_id" referenced-column-name="pk_id"/>
+      </join-columns>
+    </many-to-one>
+  </entity>
+</doctrine-mapping>

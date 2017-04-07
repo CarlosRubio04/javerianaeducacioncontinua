@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+  <entity name="LpjConfigmail" table="lpj_configmail">
+    <id name="pkId" type="integer" column="pk_id">
+      <generator strategy="IDENTITY"/>
+    </id>
+    <field name="vemail" type="string" column="vemail" length="60" nullable="false"/>
+    <field name="vpassword" type="text" column="vpassword" nullable="false"/>
+    <field name="vnombre" type="string" column="vnombre" length="100" nullable="true"/>
+    <field name="iestado" type="boolean" column="iestado" nullable="false"/>
+    <field name="ienvioMail" type="boolean" column="ienvio_mail" nullable="false"/>
+  </entity>
+</doctrine-mapping>

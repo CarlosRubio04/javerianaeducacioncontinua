@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+  <entity name="LpjPrograma" table="lpj_programa">
+    <indexes>
+      <index name="fk_lpj_programa_lpj_facultad_idx" columns="lpj_facultad_pk_id"/>
+      <index name="fk_lpj_programa_lpj_categoria1_idx" columns="lpj_categoria_pk_id"/>
+    </indexes>
+    <id name="pkId" type="integer" column="pk_id">
+      <generator strategy="IDENTITY"/>
+    </id>
+    <field name="vnombre" type="string" column="vnombre" length="250" nullable="false"/>
+    <field name="ihoras" type="integer" column="ihoras" nullable="false"/>
+    <field name="dinicio" type="date" column="dinicio" nullable="false"/>
+    <field name="vperfil" type="text" column="vperfil" nullable="false"/>
+    <field name="vdescripcion" type="text" column="vdescripcion" nullable="false"/>
+    <field name="vdetalle" type="text" column="vdetalle" nullable="false"/>
+    <field name="iestado" type="boolean" column="iestado" nullable="false"/>
+    <field name="ivalor" type="integer" column="ivalor" nullable="false"/>
+    <field name="vurlImagen" type="text" column="vurl_imagen" nullable="true"/>
+    <field name="vurlVideo" type="text" column="vurl_video" nullable="true"/>
+    <field name="vtelefono" type="string" column="vtelefono" length="15" nullable="true"/>
+    <many-to-one field="lpjFacultadPk" target-entity="LpjFacultad">
+      <join-columns>
+        <join-column name="lpj_facultad_pk_id" referenced-column-name="pk_id"/>
+      </join-columns>
+    </many-to-one>
+    <many-to-one field="lpjCategoriaPk" target-entity="LpjCategoria">
+      <join-columns>
+        <join-column name="lpj_categoria_pk_id" referenced-column-name="pk_id"/>
+      </join-columns>
+    </many-to-one>
+  </entity>
+</doctrine-mapping>
