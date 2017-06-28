@@ -1,8 +1,11 @@
 <?php
 ini_set('display_errors', TRUE);
-define('USER', 'landingjaveriana');
-define('PASS', 'L@nding123');
-define('HOST', 'landingjaveriana.db.10223098.hostedresource.com');
+//define('USER', 'landingjaveriana');
+define('USER', 'root');
+//define('PASS', 'L@nding123');
+define('PASS', 'root');
+//define('HOST', 'landingjaveriana.db.10223098.hostedresource.com');
+define('HOST', 'localhost');
 define('DBNAME', 'landingjaveriana');
 define('APPLICATION_PATH', realpath(dirname(__FILE__)));
 define('SENDER_MAIL', 'javeriana@interactivemedia.com.co');
