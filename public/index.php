@@ -1,66 +1,66 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-    <head>
-        <meta charset="UTF-8"/>
-        <meta name="description" content=""/>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-        <meta name="theme-color" content="#333333">
-            <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
-            <meta name="google-site-verification" content=""/>
-            <meta name="date" content="2016" />
-            <meta name="robots" content="All" />
-            <meta name="keywords" content="" />
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="description" content=""/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="theme-color" content="#333333">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+    <meta name="google-site-verification" content=""/>
+    <meta name="date" content="2016" />
+    <meta name="robots" content="All" />
+    <meta name="keywords" content="" />
 
-            <title>Javeriana</title>
+    <title>Javeriana</title>
 
-            <link type="text/plain" rel="author" href="humans.txt" />
-            <link rel="shortcut icon" href="favicon.ico" />
-            <link rel="stylesheet" href="assets/css/javeriana.css"/>
+    <link type="text/plain" rel="author" href="humans.txt" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="assets/css/javeriana.css"/>
 
-            <script src="assets/js/lib/modernizr.min.js"></script>
-            <script src="js/jquery-2.1.3.min.js"></script>
-            <script src="js/custom.js"></script>
-            <!-- Facebook Pixel Code -->
+    <script src="assets/js/lib/modernizr.min.js"></script>
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/custom.js"></script>
+    <!-- Facebook Pixel Code -->
 
-            <script>
+    <script>
 
-                !function (f, b, e, v, n, t, s) {
-                    if (f.fbq)
-                        return;
-                    n = f.fbq = function () {
-                        n.callMethod ?
-                                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-                    };
-                    if (!f._fbq)
-                        f._fbq = n;
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq)
+                return;
+            n = f.fbq = function () {
+                n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq)
+                f._fbq = n;
 
-                    n.push = n;
-                    n.loaded = !0;
-                    n.version = '2.0';
-                    n.queue = [];
-                    t = b.createElement(e);
-                    t.async = !0;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
 
-                    t.src = v;
-                    s = b.getElementsByTagName(e)[0];
-                    s.parentNode.insertBefore(t, s)
-                }(window,
-                        document, 'script', '//connect.facebook.net/en_US/fbevents.js');
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window,
+            document, 'script', '//connect.facebook.net/en_US/fbevents.js');
 
-                fbq('init', '559775344182262');
+        fbq('init', '559775344182262');
 
-                fbq('track', "PageView");</script>
+        fbq('track', "PageView");</script>
 
-            <noscript><img height="1" width="1" style="display:none"
+        <noscript><img height="1" width="1" style="display:none"
 
-                           src="https://www.facebook.com/tr?id=559775344182262&ev=PageView&noscript=1"
+           src="https://www.facebook.com/tr?id=559775344182262&ev=PageView&noscript=1"
 
-                           /></noscript>
+           /></noscript>
 
-            <!-- End Facebook Pixel Code -->
+           <!-- End Facebook Pixel Code -->
 
-    </head>
-    <body>
+       </head>
+       <body>
         <script>
 
             (function (i, s, o, g, r, a, m) {
@@ -70,7 +70,7 @@
                     (i[r].q = i[r].q || []).push(arguments)
                 }, i[r].l = 1 * new Date();
                 a = s.createElement(o),
-                        m = s.getElementsByTagName(o)[0];
+                m = s.getElementsByTagName(o)[0];
                 a.async = 1;
                 a.src = g;
                 m.parentNode.insertBefore(a, m)
@@ -96,9 +96,56 @@
 
         <!--=======================Inicio Contenido=============================-->
         <section class="slide">
-            <div class="wrapper">
-                <h2>Capac&iacute;tate con nuestros programas de educación continua.</h2>
-                <p>Tú eliges... ¡presencial o virtual!</p>
+            <div class="wrapper flex">
+                <div class="copy">
+                <h2>Capac&iacute;tate con nuestros <br /> programas de educación <br /> continua.</h2>
+                    <p>Tú eliges... ¡presencial o virtual!</p>
+                </div>
+
+                <div class="cta">
+                    <div class="inscribete">
+                        <strong>¡Inscríbete ya!</strong>
+                        <p>Pronto serás contactado por uno de nuestros asesores.</p>
+                    </div>
+                    <form action="" method="get" accept-charset="utf-8">
+                        <fieldset>
+                            <input type="text" size="60" id="Nombre" name="" value=""
+                            placeholder="Nombre" maxlength="128" />
+                        </fieldset>
+                        <fieldset>
+                            <input type="text" size="60" id="Apellido" name="" value=""
+                            placeholder="Apellido" maxlength="128" />
+                        </fieldset>
+                        <fieldset>
+                            <input type="email" size="60" id="Mail"
+                            name="direccion-correo" required value="" placeholder="Mail"
+                            maxlength="128" />
+                        </fieldset>
+                        <fieldset>
+                            <input type="text" size="60" id="Celular" name="" value=""
+                            placeholder="Celular" maxlength="128" />
+                        </fieldset>
+                        <fieldset class="select">
+                            <select id="programa" class="programa_form">
+                                <option>Programa</option>
+                            </select>
+
+                        </fieldset>
+                        <fieldset>
+                            <div class="checkbox">
+                                <input type="checkbox" name="" value="" id="check">
+                                <label for="check">Acepto ser contactado vía mail o teléfono.</label>
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <input
+                            type="hidden" id="ip" name="ip" value="" />
+                            <input type="hidden" id="target" value="<?php echo @$_GET['target']; ?>"/>
+                            <input type="hidden" id="programaprecargado" value="<?php echo @$_GET['programa']; ?>"/>
+                            <button type="button" onclick="registro()">Enviar</button>
+                        </fieldset>
+                    </form>
+                </div>
             </div>
         </section>
 
@@ -111,147 +158,103 @@
                     <!-- imagen -->
                     <!-- <div class="cont-img">
                       <img src="assets/imgs/img1.jpg" height="1456" width="3556" alt="">
-                    </div> -->
+                  </div> -->
 
-                    <!-- video -->
+                  <!-- video -->
                     <!-- <div class="flex">
                       <iframe width="560" height="315" src="https://www.youtube.com/embed/YzgMxqiShGU" frameborder="0" allowfullscreen></iframe>
-                    </div> -->
+                  </div> -->
 
-                    <div class="selects">
-                        <div>
-                            <select  id="sfacultades" onchange="getCategorias()">
-                                <option value="">Facultad</option>
-                            </select>
-                        </div>
-                        <div>
-                            <select  id="scategorias" onchange="getProgramas()">
-                                <option value="">Categoría</option>
-                            </select>
-                        </div>
-                        <div>
-                            <select  id="sprogramas" onchange="getPrograma()">
-                                <option value="">Programa</option>
-                            </select>
-                        </div>
+                  <div class="selects">
+                    <div>
+                        <select  id="sfacultades" onchange="getCategorias()">
+                            <option value="">Facultad</option>
+                        </select>
                     </div>
-                    <h4 id="nombre"></h4>
-                    <div class="boxs">
-                        <div class="box">
-                            <div>
-                                <small>Horas</small>
-                                <span  id="horas"></span>
-                            </div>
-                        </div>
-                        <div class="box">
-                            <div>
-                                <small>MES INICIO</small>
-                                <span id="mes"></span>
-                            </div>
-                        </div>
-                        <div class="box">
-                            <div>
-                                <small>Día inicio</small>
-                                <span id="dia"></span>
-                            </div>
-                        </div>
-                        <div class="box">
-                            <div>
-                                <small>Inversión</small>
-                                <span id="precio"></span>
-                            </div>
-                        </div>
+                    <div>
+                        <select  id="scategorias" onchange="getProgramas()">
+                            <option value="">Categoría</option>
+                        </select>
                     </div>
-                    <div class="text">
-                        <strong>Perfil</strong>
-                        <p id="perfil"></p>
-                    </div>
-                    <div class="text">
-                        <strong>¿En qué consiste?</strong>
-                        <p id="descripcion"></p>
-                    </div>
-                    <div class="text">
-                        <strong>¿Por qué hacer este diplomado?</strong>
-                        <p id="detalle"></p>
+                    <div>
+                        <select  id="sprogramas" onchange="getPrograma()">
+                            <option value="">Programa</option>
+                        </select>
                     </div>
                 </div>
-                <div class="right">
-                    <div class="inscribete">
-                        <strong>¡Inscríbete ya!</strong>
-                        <p>Pronto serás contactado por uno de nuestros asesores.</p>
+                <h4 id="nombre"></h4>
+                <div class="boxs">
+                    <div class="box">
+                        <div>
+                            <small>Horas</small>
+                            <span  id="horas"></span>
+                        </div>
                     </div>
-                    <form action="" method="get" accept-charset="utf-8">
-                        <fieldset>
-                            <input type="text" size="60" id="Nombre" name="" value=""
-                                   placeholder="Nombre" maxlength="128" />
-                        </fieldset>
-                        <fieldset>
-                            <input type="text" size="60" id="Apellido" name="" value=""
-                                   placeholder="Apellido" maxlength="128" />
-                        </fieldset>
-                        <fieldset>
-                            <input type="email" size="60" id="Mail"
-                                   name="direccion-correo" required value="" placeholder="Mail"
-                                   maxlength="128" />
-                        </fieldset>
-                        <fieldset>
-                            <input type="text" size="60" id="Celular" name="" value=""
-                                   placeholder="Celular" maxlength="128" />
-                        </fieldset>
-                        <fieldset class="select">
-                            <select id="programa" class="programa_form">
-                                <option>Programa</option>
-                            </select>
-
-                        </fieldset>
-                        <fieldset>
-                            <div class="checkbox">
-                                <input type="checkbox" name="" value="" id="check">
-                                    <label for="check">Acepto ser contactado vía mail o teléfono.</label>
-                            </div>
-                        </fieldset>
-                        <fieldset>
-                            <input
-                                type="hidden" id="ip" name="ip" value="" />
-                            <input type="hidden" id="target" value="<?php echo @$_GET['target']; ?>"/>
-                            <input type="hidden" id="programaprecargado" value="<?php echo @$_GET['programa']; ?>"/>
-                            <button type="button" onclick="registro()">Enviar</button>
-                        </fieldset>
-                    </form>
+                    <div class="box">
+                        <div>
+                            <small>MES INICIO</small>
+                            <span id="mes"></span>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div>
+                            <small>Día inicio</small>
+                            <span id="dia"></span>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div>
+                            <small>Inversión</small>
+                            <span id="precio"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="text">
+                    <strong>Perfil</strong>
+                    <p id="perfil"></p>
+                </div>
+                <div class="text">
+                    <strong>¿En qué consiste?</strong>
+                    <p id="descripcion"></p>
+                </div>
+                <div class="text">
+                    <strong>¿Por qué hacer este diplomado?</strong>
+                    <p id="detalle"></p>
                 </div>
             </div>
         </div>
+    </div>
 
 
 
 
-        <!--=======================Inicio Footer================================-->
+    <!--=======================Inicio Footer================================-->
 
-        <footer>
-            <div class="wrapper">
-                <div>
-                    <p>
-                        <strong>4%</strong> por pronto pago en curso o diplomados (acumulable con otros descuentos) - <strong>20%</strong> para grupos de 6 personas en adelante, y en el tercer curso o diplomado realizado consecutivamente - <strong>15%</strong> para grupos de 3 a 5 participantes en el mismo curso o diplomado.
-                    </p>
-                    <p>
-                        <strong>Forma de pago:</strong> Efectivo, cheque de gerencia, tarjeta de crédito (recibimos todas las tarjetas, cuenta de cobro), medios de financiación.
-                    </p>
-                </div>
+    <footer>
+        <div class="wrapper">
+            <div>
+                <p>
+                    <strong>4%</strong> por pronto pago en curso o diplomados (acumulable con otros descuentos) - <strong>20%</strong> para grupos de 6 personas en adelante, y en el tercer curso o diplomado realizado consecutivamente - <strong>15%</strong> para grupos de 3 a 5 participantes en el mismo curso o diplomado.
+                </p>
+                <p>
+                    <strong>Forma de pago:</strong> Efectivo, cheque de gerencia, tarjeta de crédito (recibimos todas las tarjetas, cuenta de cobro), medios de financiación.
+                </p>
             </div>
-            <div class="linea"></div>
-        </footer>
+        </div>
+        <div class="linea"></div>
+    </footer>
 
 
-        <!--=====Fin Google Analytics========-->
+    <!--=====Fin Google Analytics========-->
 
-        <!--=======================Inicio Scripts===============================-->
-        <script src="assets/js/lib/jquery-1.11.0.min.js"></script>
-        <script src="assets/js/lib/styleSelect.js"></script>
-        <script src="assets/js/funciones.js"></script>
-        <!--===Fin Scripts===-->
+    <!--=======================Inicio Scripts===============================-->
+    <script src="assets/js/lib/jquery-1.11.0.min.js"></script>
+    <script src="assets/js/lib/styleSelect.js"></script>
+    <script src="assets/js/funciones.js"></script>
+    <!--===Fin Scripts===-->
 
 
-        <!--===Fin Footer===-->
+    <!--===Fin Footer===-->
 
-    </body>
+</body>
 </html>
