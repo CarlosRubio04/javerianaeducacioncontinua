@@ -1,12 +1,12 @@
 <?php
 ini_set('display_errors', TRUE);
 //define('USER', 'landingjaveriana');
-define('USER', 'dbo688623030');
+define('USER', 'root');
 //define('PASS', 'L@nding123');
-define('PASS', '20BrandMedia17@');
+define('PASS', 'root');
 //define('HOST', 'landingjaveriana.db.10223098.hostedresource.com');
-define('HOST', 'db688623030.db.1and1.com');
-define('DBNAME', 'db688623030');
+define('HOST', 'localhost');
+define('DBNAME', 'landingjaveriana');
 define('APPLICATION_PATH', realpath(dirname(__FILE__)));
 define('SENDER_MAIL', 'javeriana@interactivemedia.com.co');
 define('SENDER_PASS', '');
