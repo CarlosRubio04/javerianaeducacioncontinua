@@ -1,2 +1,4 @@
+#excluir archivos de aca
 docs/*.sql
-*php
+confing.php
+configAdmin.php
