@@ -1,0 +1,4 @@
+#excluir archivos de aca
+docs/*
+config.php
+configAdmin.php
