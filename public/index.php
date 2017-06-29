@@ -230,7 +230,7 @@
 
     <!--=======================Inicio Footer================================-->
 
-    <footer>
+    <!-- <footer>
         <div class="wrapper">
             <div>
                 <p>
@@ -242,7 +242,7 @@
             </div>
         </div>
         <div class="linea"></div>
-    </footer>
+    </footer> -->
 
 
     <!--=====Fin Google Analytics========-->

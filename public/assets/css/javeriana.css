@@ -403,6 +403,7 @@ body {
   font-family: 'droid_sansregular';
   font-size: 14px;
   color: #333;
+  background-color: #f2f5f7;
 }
 .clear {
   content: '';
@@ -423,6 +424,7 @@ body {
 }
 .wrapper {
   max-width: 1200px;
+  padding: 0 15px;
   width: 100%;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -528,14 +530,6 @@ body {
   right: 30px;
   top: 0;
   content: '';
-}
-.flex {
-  height: 0;
-  margin-bottom: 0.88889rem;
-  overflow: hidden;
-  padding-bottom: 67.5%;
-  padding-top: 1.38889rem;
-  position: relative;
 }
 .flex iframe,
 .flex object,
@@ -703,6 +697,7 @@ header .tel span {
   background-position: top center;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  background-size: cover;
   min-height: 60vh;
   height: 80vh;
   position: relative;
