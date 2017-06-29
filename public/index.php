@@ -98,8 +98,8 @@
         <section class="slide">
             <div class="wrapper flex">
                 <div class="copy">
-                <h2>Capac&iacute;tate con nuestros <br /> programas de educación <br /> continua.</h2>
-                    <p>Tú eliges... ¡presencial o virtual!</p>
+                    <h2>Capac&iacute;tate con nuestros <br /> <span>programas de educación</span> <br /> continua.</h2>
+                    <h3>Tú eliges... ¡presencial o virtual!</h3>
                 </div>
 
                 <div class="cta">
