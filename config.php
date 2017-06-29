@@ -5,7 +5,7 @@ define('USER', 'dbo688623030');
 //define('PASS', 'L@nding123');
 define('PASS', '20BrandMedia17@');
 //define('HOST', 'landingjaveriana.db.10223098.hostedresource.com');
-define('HOST', 'localhost');
+define('HOST', 'db688623030.db.1and1.com');
 define('DBNAME', 'db688623030');
 define('APPLICATION_PATH', realpath(dirname(__FILE__)));
 define('SENDER_MAIL', 'javeriana@interactivemedia.com.co');
