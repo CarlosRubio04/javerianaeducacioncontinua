@@ -882,6 +882,10 @@ header .tel span {
     align-items: center;
     justify-content: center;
   }
+  .footG {
+    padding: 20px 0;
+    text-align: center;
+  }
   .cta {
     width: 40%;
     padding: 0 30px;

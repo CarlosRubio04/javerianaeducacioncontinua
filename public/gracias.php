@@ -129,25 +129,28 @@ fbq('track', 'Lead');
   </header>
   <section class="slide">
     <div class="wrapper flex2">
-        <h2>GRACIAS POR REGISTRARTE!</h2>
-        <h3>MUY PRONTO UN ASESOR SE CONTACTARÁ CONTIGO.</h3>
+      <h2>GRACIAS POR REGISTRARTE!</h2>
+      <h3>MUY PRONTO UN ASESOR SE CONTACTARÁ CONTIGO.</h3>
     </div>
   </section>
-    <!-- Google Code para etiquetas de remarketing -->
-    <script type="text/javascript">
-      /* <![CDATA[ */
-      var google_conversion_id = 971650066;
-      var google_custom_params = window.google_tag_params;
-      var google_remarketing_only = true;
-      /* ]]> */
-    </script>
+  <footer class="footG">
+    <p>Pontificia Universidad Javeriana - Bogotá D.C.- Colombia - Carrera 7, 40 a93. Teléfono: 3208320 ext: 3503</p>
+  </footer>
+  <!-- Google Code para etiquetas de remarketing -->
+  <script type="text/javascript">
+    /* <![CDATA[ */
+    var google_conversion_id = 971650066;
+    var google_custom_params = window.google_tag_params;
+    var google_remarketing_only = true;
+    /* ]]> */
+  </script>
 
-    <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script>
+  <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script>
 
-    <noscript>
-      <div style="display:inline;">
-        <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/971650066/?value=0&amp;guid=ON&amp;script=0"/>
-      </div>
-    </noscript>
-  </body>
-  </html>
+  <noscript>
+    <div style="display:inline;">
+      <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/971650066/?value=0&amp;guid=ON&amp;script=0"/>
+    </div>
+  </noscript>
+</body>
+</html>
