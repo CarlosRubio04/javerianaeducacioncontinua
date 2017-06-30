@@ -134,7 +134,7 @@
                         <fieldset>
                             <div class="checkbox">
                                 <input type="checkbox" name="" value="" id="check">
-                                <label for="check">Acepto ser contactado vía mail o teléfono.</label>
+                                <label for="check">Autorizo ser contactado por teléfono y correo electrónico, y seguir recibiendo información académica por parte de la Universidad</label>
                             </div>
                         </fieldset>
                         <fieldset>
