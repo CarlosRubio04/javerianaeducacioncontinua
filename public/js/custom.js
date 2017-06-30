@@ -1,7 +1,7 @@
 $(document).ready(function () {
     getFacultades();
     getAllProgramas();
-    // getIp();
+    //getIp();
 });
 
 function getFacultades() {
@@ -177,16 +177,15 @@ function registro() {
         alert('debe aceptar ser contactado para poder enviar sus datos.');
         return false;
     }
-    $.post("../views/registro.php", {programa: $("#programa").val(), nombre: $("#Nombre").val(), apellidos: $("#Apellido").val(), email: $("#Mail").val(), celular: $("#Celular").val(), contactar: $("#check").val(), target: $("#target").val()}).done(function (data) {
+    $.post("../views/registro.php", {programa: $("#programa").val(), nombre: $("#Nombre").val(), apellidos: $("#Apellido").val(), email: $("#Mail").val(), celular: $("#Celular").val(), contactar: $("#check").val(), target: $("#target").val(), ip: $("#ip").val()}).done(function () {
+
+            window.location.replace("gracias.php");
 //         if (data.codigo == 'OK') {
 //             location.href = 'gracias.php';
-//             console.log (data.mensaje);
 //         } else {
 //             alert(data.mensaje);
-//             console.log (data.mensaje);
 // //            location.reload();
 //         }
-        location.href = 'gracias.php';
     });
 
 }
