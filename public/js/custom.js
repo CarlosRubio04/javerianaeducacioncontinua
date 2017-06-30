@@ -1,7 +1,7 @@
 $(document).ready(function () {
     getFacultades();
     getAllProgramas();
-    getIp();
+    // getIp();
 });
 
 function getFacultades() {
