@@ -98,8 +98,8 @@
         <section class="slide">
             <div class="wrapper flex">
                 <div class="copy">
-                    <h2>Capac&iacute;tate con nuestros <br /> <span>programas de educación</span> <br /> continua.</h2>
-                    <h3>Tú eliges... ¡presencial o virtual!</h3>
+                    <h2>La Universidad Javeriana<br /> <span>presente en todo Colombia…</span></h2>
+                    <h3>Programas de Educación Continua.</h3>
                 </div>
 
                 <div class="cta">
@@ -168,7 +168,7 @@
                   <div class="selects">
                     <div>
                         <select  id="sfacultades" onchange="getCategorias()">
-                            <option value="">Facultad</option>
+                            <option value="">Región</option>
                         </select>
                     </div>
                     <div>
