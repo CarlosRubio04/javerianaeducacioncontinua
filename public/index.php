@@ -210,7 +210,7 @@
                     </div>
                 </div>
                 <div class="text">
-                    <strong>Perfil</strong>
+                    <strong>Temas principales</strong>
                     <p id="perfil"></p>
                 </div>
                 <div class="text">
@@ -218,7 +218,7 @@
                     <p id="descripcion"></p>
                 </div>
                 <div class="text">
-                    <strong>¿Por qué hacer este diplomado?</strong>
+                    <strong>Horario</strong>
                     <p id="detalle"></p>
                 </div>
             </div>
