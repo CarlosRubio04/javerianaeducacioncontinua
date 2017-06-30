@@ -56,7 +56,7 @@ fbq('track', 'Lead');
 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Javeriana</title>
-<link href="Olds/css/generales.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="assets/css/javeriana.css"/>
 </head>
 <body>
   <script>
@@ -128,12 +128,9 @@ fbq('track', 'Lead');
     </div>   
   </header>
   <section class="slide">
-    <div class="wrapper flex">
-      <div class="copy">
+    <div class="wrapper flex2">
         <h2>GRACIAS POR REGISTRARTE!</h2>
         <h3>MUY PRONTO UN ASESOR SE CONTACTARÁ CONTIGO.</h3>
-      </div>
-
     </div>
   </section>
     <!-- Google Code para etiquetas de remarketing -->
