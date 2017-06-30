@@ -177,7 +177,7 @@ function registro() {
         alert('debe aceptar ser contactado para poder enviar sus datos.');
         return false;
     }
-    $.post("../views/registro.php", {programa: $("#programa").val(), nombre: $("#Nombre").val(), apellidos: $("#Apellido").val(), email: $("#Mail").val(), celular: $("#Celular").val(), contactar: $("#check").val(), target: $("#target").val(), ip: $("#ip").val()}).done(function (data) {
+    $.post("../views/registro.php", {programa: $("#programa").val(), nombre: $("#Nombre").val(), apellidos: $("#Apellido").val(), email: $("#Mail").val(), celular: $("#Celular").val(), contactar: $("#check").val(), target: $("#target").val()}).done(function (data) {
         if (data.codigo == 'OK') {
             location.href = 'gracias.php';
         } else {
@@ -189,15 +189,15 @@ function registro() {
 }
 
 
-function getIp() {
-    $.get("http://api.hostip.info/get_html.php", function (data) {
-        var hostipInfo = data.split("\n");
-        for (var i = 0; hostipInfo.length >= i; i++) {
-            var ipAddress = hostipInfo[i].split(":");
-            if (ipAddress[0] == "IP") {
-                $('#ip').val(ipAddress[1].trim());
-                return false;
-            }
-        }
-    });
-}
+// function getIp() {
+//     $.get("http://api.hostip.info/get_html.php", function (data) {
+//         var hostipInfo = data.split("\n");
+//         for (var i = 0; hostipInfo.length >= i; i++) {
+//             var ipAddress = hostipInfo[i].split(":");
+//             if (ipAddress[0] == "IP") {
+//                 $('#ip').val(ipAddress[1].trim());
+//                 return false;
+//             }
+//         }
+//     });
+// }
