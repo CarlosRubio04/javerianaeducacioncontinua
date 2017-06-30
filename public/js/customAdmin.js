@@ -67,5 +67,5 @@ function getPrograma() {
 }
 
 function createLink(){
-    $('#link').html('http://www.javerianaeducacioncontinua.com/public/?target='+ $('#origen').val()+'&programa='+$('#sprogramas').val());
+    $('#link').html('http://www.javerianaenregion.com/programas/public/?target='+ $('#origen').val()+'&programa='+$('#sprogramas').val());
 }
