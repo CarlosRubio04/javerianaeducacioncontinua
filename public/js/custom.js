@@ -180,8 +180,10 @@ function registro() {
     $.post("../views/registro.php", {programa: $("#programa").val(), nombre: $("#Nombre").val(), apellidos: $("#Apellido").val(), email: $("#Mail").val(), celular: $("#Celular").val(), contactar: $("#check").val(), target: $("#target").val()}).done(function (data) {
         if (data.codigo == 'OK') {
             location.href = 'gracias.php';
+            console.log (data.mensaje);
         } else {
             alert(data.mensaje);
+            console.log (data.mensaje);
 //            location.reload();
         }
     });
